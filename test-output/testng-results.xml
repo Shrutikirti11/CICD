@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T00:05:03 IST" name="Suite" finished-at="2024-09-17T00:05:49 IST" duration-ms="45683">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" name="LoginErrorValidation" class="Automation_Testing.TestNG_FW_Design.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" name="submitOrder" class="Automation_Testing.TestNG_FW_Design.SubmitOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-09-17T00:05:03 IST" name="Error Validations Test" finished-at="2024-09-17T00:05:38 IST" duration-ms="35327">
+      <class name="Automation_Testing.TestNG_FW_Design.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" started-at="2024-09-17T00:05:03 IST" name="launchApplication" finished-at="2024-09-17T00:05:27 IST" duration-ms="23689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" started-at="2024-09-17T00:05:27 IST" name="LoginErrorValidation" finished-at="2024-09-17T00:05:28 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" started-at="2024-09-17T00:05:28 IST" name="tearDwon" finished-at="2024-09-17T00:05:29 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" started-at="2024-09-17T00:05:29 IST" name="launchApplication" finished-at="2024-09-17T00:05:36 IST" duration-ms="7113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" started-at="2024-09-17T00:05:36 IST" name="ProductErrorValidation" finished-at="2024-09-17T00:05:38 IST" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Automation_Testing.TestNG_FW_Design.ErrorValidation@285f09de]" started-at="2024-09-17T00:05:38 IST" name="tearDwon" finished-at="2024-09-17T00:05:38 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- Automation_Testing.TestNG_FW_Design.ErrorValidation -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-09-17T00:05:03 IST" name="Submit Order Test" finished-at="2024-09-17T00:05:49 IST" duration-ms="45683">
+      <class name="Automation_Testing.TestNG_FW_Design.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:04 IST" name="launchApplication" finished-at="2024-09-17T00:05:24 IST" duration-ms="20611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:24 IST" name="submitOrder" data-provider="getData" finished-at="2024-09-17T00:05:30 IST" duration-ms="6011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Abcd@1234, email=shruti123@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:30 IST" name="tearDwon" finished-at="2024-09-17T00:05:31 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:31 IST" name="launchApplication" finished-at="2024-09-17T00:05:37 IST" duration-ms="5822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:37 IST" name="submitOrder" data-provider="getData" finished-at="2024-09-17T00:05:42 IST" duration-ms="5438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Monu@12345, email=Monu@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:42 IST" name="tearDwon" finished-at="2024-09-17T00:05:42 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:42 IST" name="launchApplication" finished-at="2024-09-17T00:05:47 IST" duration-ms="5146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:47 IST" name="OrderHistoryTest" finished-at="2024-09-17T00:05:48 IST" depends-on-methods="Automation_Testing.TestNG_FW_Design.SubmitOrder.submitOrder" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:Automation_Testing.TestNG_FW_Design.SubmitOrder@1b5bc39d]" started-at="2024-09-17T00:05:48 IST" name="tearDwon" finished-at="2024-09-17T00:05:49 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- Automation_Testing.TestNG_FW_Design.SubmitOrder -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
